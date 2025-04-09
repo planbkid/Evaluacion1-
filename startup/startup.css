@@ -1,0 +1,16 @@
+.navbar-brand{
+    color: #000 !important;
+}
+
+.navbar-toggler{
+    color: #131010 !important;
+    border: 0.5px solid #ffffff79 !important;
+}
+
+
+.inicio{
+    background-image: url("imagenes/fondo.png") !important;
+    background-size: cover !important;  
+}
+
+
