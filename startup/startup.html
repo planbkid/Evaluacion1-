@@ -163,16 +163,17 @@
     </style>
 </head>
 <body>
+<!--Navbar con bootstrap mustra los enlaces de la pagina cuanta con logo y titulo de la empresa-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#contenido"><img src="imagenes/icono1.png" width="30" height="30" alt="">Startup</a>
+            <a class="navbar-brand" href="#hero-carousel"><img src="imagenes/icono1.png" width="30" height="30" alt="">Startup</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarContenido">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-dark">                
                     <li class="nav-item">
-                        <a class="nav-link active" href="#contenido">Inicio</a>
+                        <a class="nav-link active" href="#hero-carousel">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#servicios">Servicios</a>
@@ -187,18 +188,7 @@
             </div>
         </div>
     </nav>
-    <!--<div class="container mt-5" id="contenido">
-        <div class="row" >
-            <fieldset class="bordes">
-                <div class="col-md-6 offset-md-3 text-center">
-                    <h1>Bienvenido a StarTup</h1>
-                    <p id="descrip">Empresa de tecnologías de la información, especializada en desarrollo de 
-                        aplicaciones web y móviles.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
-                </div>
-            </fieldset>
-        </div>-->
-    </div>
+<!--carousel con bootstrap informacion y imagenes sobre la empresa startup-->
     <section>
         <div id="hero-carousel" class="carousel slide c-banner">
             <div class="carousel-inner">
@@ -215,7 +205,7 @@
                     <div class="carousel-caption  c-text">
                         <h1>Creamos aplicaciones con tecnología de punta</h1>
                         <p>Desde la idea hasta el despliegue, desarrollamos aplicaciones web y móviles funcionales, seguras y escalables para potenciar tu negocio.</p>
-                        <a href="#" class="btn btn-primary">Comenzar</a>
+                        <a href="#" class="btn btn-primary">Únete</a>
                     </div>
                 </div>
                 <div class="carousel-item c-item ">
@@ -237,20 +227,32 @@
                 </button>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--card img y grid con bootstrap mostrar la info principal de la empresa -->
+    <div  class="container text-center">
+        <div class="row">
+            <div class="col">
+                <!--targeta 1-->
+                <div class="card text-bg-dark">
+                    <img src="imagenes/cardimg.jpg" class="card-img" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Transformamos ideas en soluciones digitales potentes</h5>
+                        <p class="card-text">En Startup-ECotech-solution, desarrollamos aplicaciones web y moviles a medida que impulsan el crecimientode negocios modernos. Desde Startup hasta grandes empresas, conectando tecnologioa con resultados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--targeta 2-->
+                <div class="card text-bg-dark">
+                    <img src="imagenes/card2img.jpg" class="card-img" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--seccion de servicios en bootstrap card-->
     <section class="Servicio"  id="servicios">
         
         <div class="card" style="width: 12.6rem;">
@@ -289,11 +291,10 @@
             <div class="container">
                 <h5 class="card-title">Diseño UX/UI</h5>
                 <p class="card-text">Diseño Centrado en Experencia de Usuario,</P>
-            </div>
-
+                </div>
         </div>
     </section>
-
+<!--alert de info sobre la empresa con bootstrap-->
     <section id="nosotro">
         <div class="alert alert-warning" role="alert">
             <h4 class="alert-heading">¿Quienes Somos?</h4>
@@ -304,7 +305,7 @@
             <a href="#" class="btn btn-primary btn-alert">Registrarse</a>
         </div>
     </section>
-
+<!--Pie de pagina enlaces de redes sociales mas iconos y logo-->
     <footer>
         <div class="icono-social">
             <ul id ="iconos">
