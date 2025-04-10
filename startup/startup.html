@@ -160,13 +160,25 @@
         .c-banner{
             box-shadow: 0 0 20px #000000;
         }
+        .img-card{
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        .card-intro{
+            margin: 20px;
+        }
+        .col{
+            width: 100%;
+            min-width: 350px;
+        }
     </style>
 </head>
 <body>
 <!--Navbar con bootstrap mustra los enlaces de la pagina cuanta con logo y titulo de la empresa-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#hero-carousel"><img src="imagenes/icono1.png" width="30" height="30" alt="">Startup</a>
+            <a class="navbar-brand" href="#hero-carousel"><img src="imagenes/icono1.png" width="30" height="30" alt="">EcoTech SoluTion</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -195,7 +207,7 @@
                 <div class="carousel-item active c-item">
                     <img src="imagenes/fotoscaru.jpg" class="d-block w-100 h-100 c-img" alt="slide 1">
                     <div class="carousel-caption  c-text">
-                        <h1>Startup</h1>
+                        <h1>EcoTech</h1>
                         <p>Empresa de tecnologias de la información, especializada en desarrollo de aplicaciones web y moviles</p>
                         <a href="#" class="btn btn-primary">Comenzar</a>
                     </div>
@@ -232,22 +244,28 @@
         <div class="row">
             <div class="col">
                 <!--targeta 1-->
-                <div class="card text-bg-dark">
-                    <img src="imagenes/cardimg.jpg" class="card-img" alt="">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Transformamos ideas en soluciones digitales potentes</h5>
-                        <p class="card-text">En Startup-ECotech-solution, desarrollamos aplicaciones web y moviles a medida que impulsan el crecimientode negocios modernos. Desde Startup hasta grandes empresas, conectando tecnologioa con resultados.</p>
+                <div class="card card-intro">
+                    <div class="card-body">
+                        <h5 class="card-title">titulo</h5>
+                        <hr>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam explicabo voluptatum neque quibusdam ipsum iusto quidem laboriosam magni quaerat. Cumque nemo suscipit magnam voluptates commodi non consequatur aliquid dignissimos?
+                        </p>
                     </div>
+                    <img src="imagenes/card3img.jpg" class="img-card" alt="">
                 </div>
             </div>
             <div class="col">
                 <!--targeta 2-->
-                <div class="card text-bg-dark">
-                    <img src="imagenes/card2img.jpg" class="card-img" alt="">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
+                <div class="card card-intro">
+                    <div class="card-body">
+                        <h5 class="card-title">titulo</h5>
+                        <hr>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam explicabo voluptatum neque quibusdam ipsum iusto quidem laboriosam magni quaerat. Cumque nemo suscipit magnam voluptates commodi non consequatur aliquid dignissimos?
+                        </p>
                     </div>
+                    <img src="imagenes/card3img.jpg" class="img-card" alt="">
                 </div>
             </div>
         </div>
