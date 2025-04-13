@@ -1,0 +1,41 @@
+<section class="Servicio"  id="servicios">
+        
+        <div class="card" style="width: 12.6rem;">
+            <img src="" class="card-img-top" alt="">
+            <video  autoplay muted src="imagenes/video2.mp4" class="vid"></video>
+            <div class="container">
+                <h5 class="card-title"> Desarrollo Web</h5>
+                <p class="card-text">
+                    Sitio y sistema web 
+                    modernos,
+                    rápido y seguro.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 12.6rem;">
+            <video autoplay muted src="imagenes/video6.mp4" class="vid"></video>
+            <div class="container">
+                <h5 class="card-title"><span>Aplicaciones Mobiles</span>
+                </h5>
+                <p class="card-text">Apps iOS y Android
+                    nativas o híbridas
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 12.6rem;">
+            <video autoplay muted src="imagenes/video4.mp4" class="vid"></video>
+            <div class="container">
+                <h5 class="card-title"><span>Consultoría TI</span>
+                </h5>
+                <p class="card-text">Te Guiamos en Tu Transformacion
+                    Digital.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 12.6rem;">
+            <video autoplay muted src="imagenes/video5.mp4" class="vid"></video>
+            <div class="container">
+                <h5 class="card-title">Diseño UX/UI</h5>
+                <p class="card-text">Diseño Centrado en Experencia de Usuario,</P>
+                </div>
+        </div>
+    </section>

@@ -173,11 +173,25 @@
             width: 100%;
             min-width: 350px;
         }
+        .card-serv {
+            transition: 0.5s;
+        }
+        
+        .card-img-serv {
+            transition: 0.5s;
+        }
+        
+        .card-serv:hover {
+            border-radius: 40px;
+        }
+        .card-serv:hover .card-img-serv {
+            border-radius: 40px;
+        }
     </style>
 </head>
 <body>
 <!--Navbar con bootstrap mustra los enlaces de la pagina cuanta con logo y titulo de la empresa-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar  navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#hero-carousel"><img src="imagenes/icono1.png" width="30" height="30" alt="">EcoTech SoluTion</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="true" aria-label="Toggle navigation">
@@ -195,7 +209,7 @@
                         <a class="nav-link" href="#nosotro">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio Sesion</a>
+                        <a class="nav-link" href="formulario.html">Inicio Sesion</a>
                     </li>
                 </ul>
             </div>
@@ -204,7 +218,7 @@
 <!--carousel con bootstrap informacion y imagenes sobre la empresa startup-->
     <section>
         <div id="hero-carousel" class="carousel slide c-banner">
-            <div class="carousel-inner">
+            <div class="carousel-inner  ">
                 <div class="carousel-item active c-item">
                     <img src="imagenes/fotoscaru.jpg" class="d-block w-100 h-100 c-img" alt="slide 1">
                     <div class="carousel-caption  c-text">
@@ -271,47 +285,51 @@
         </div>
     </div>
 <!--seccion de servicios en bootstrap card-->
-    <section class="Servicio"  id="servicios">
-        
-        <div class="card" style="width: 12.6rem;">
-            <img src="" class="card-img-top" alt="">
-            <video  autoplay muted src="imagenes/video2.mp4" class="vid"></video>
-            <div class="container">
-                <h5 class="card-title"> Desarrollo Web</h5>
-                <p class="card-text">
-                    Sitio y sistema web 
-                    modernos,
-                    rápido y seguro.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 12.6rem;">
-            <video autoplay muted src="imagenes/video6.mp4" class="vid"></video>
-            <div class="container">
-                <h5 class="card-title"><span>Aplicaciones Mobiles</span>
-                </h5>
-                <p class="card-text">Apps iOS y Android
-                    nativas o híbridas
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 12.6rem;">
-            <video autoplay muted src="imagenes/video4.mp4" class="vid"></video>
-            <div class="container">
-                <h5 class="card-title"><span>Consultoría TI</span>
-                </h5>
-                <p class="card-text">Te Guiamos en Tu Transformacion
-                    Digital.
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 12.6rem;">
-            <video autoplay muted src="imagenes/video5.mp4" class="vid"></video>
-            <div class="container">
-                <h5 class="card-title">Diseño UX/UI</h5>
-                <p class="card-text">Diseño Centrado en Experencia de Usuario,</P>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <!--card servicios en bootstrap-->
+                <div class="card card-serv" style="width: 18rem;">
+                    <img src="imagenes/cardimg.jpg" class="card-img-top card-img-serv" alt="">
+                    <div class="card-body">
+                        <h2>Desarrollo Web</h2>
+                        <hr>
+                        <p>sitios y sistemas Web modernos,
+                            rapidos y seguro.
+                        </p>
+                        <a href="#" class="btn btn-primary">Únete</a>
+                    </div>
                 </div>
+            </div>
+            <div class="col">
+                <!--card servicios en bootstrap-->
+                <div class="card card-serv" style="width: 18rem;">
+                    <img src="imagenes/cardimggg.jpg" class="card-img-top card-img-serv" alt="">
+                    <div class="card-body">
+                        <h2>Apliaciones Mobiles</h2>
+                        <hr>
+                        <p>Apps iOS y Android
+                            nativas u/o hibridas.
+                        </p>
+                        <a href="#" class="btn btn-primary">Únete</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--card servicios en bootstrap-->
+                <div class="card card-serv" style="width: 18rem;">
+                    <img src="imagenes/cardimgg.jpg" class="card-img-top card-img-serv" alt="">
+                    <div class="card-body">
+                        <h2>Consultoria</h2>
+                        <hr>
+                        <p>Te Guiamos en Tu Transformacion Digital.
+                        </p>
+                        <a href="#" class="btn btn-primary">Únete</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 <!--alert de info sobre la empresa con bootstrap-->
     <section id="nosotro">
         <div class="alert alert-warning" role="alert">
@@ -332,7 +350,7 @@
                 <li><img src="imagenes/instagram.png" class="icono" alt="" width="20" height="20"></li>
                 <li><img src="imagenes/facebook.png" class="icono" alt="" width="20" height="20"></li>
             </ul>
-            <p>© 2025 Startup-ECotech - Todos los derechos reservados.</p>
+            <p>© 2025 Startup-ECotech - Todos los derechos reservados a Cristobal Barriga.</p>
         </div>
     </footer>
 </body>
